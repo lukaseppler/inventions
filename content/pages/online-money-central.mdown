@@ -1,0 +1,33 @@
+Title: Online money central
+Date: June 23, 2006
+
+There’s no common standard for an invoice, a cheque, or sending money (as much as paypal tries to be just that… they’re still a company, charging fees).
+
+The problem with money is that payment is implemented differently all over the globe.
+
+In Britain, for example, the bulk of payments happens through cheques. That means, an employer goes to the bank and brings her earnings (in cash or as cheques) to be paid into his account. He then writes cheques for his employees and either hands them over or sends them by post. The employee takes that cheque and goes back to the bank to issue the transfer, and again writes cheques to pay his rent to his landlord which walks to the bank… Ok, you could send your cheques to the bank by post I guess, which makes it a bit simpler. But still, the british system requires two postal letters for one payment.
+
+In Switzerland, the bulk is paid by bank transfer. We have payment slips attached to the invoice which have a reference number. Online and offline banks use that number to identify the receiver’s account and optionally if the amount is correct, and then forward the embedded transaction id back to the issuer of the invoice. It is a bit better than the cheque system, but it still requires one letter (which can be replaced by e-mail if the slip is paid with an online bank).
+
+In Germany, people mostly use Direct Debit. As a service provider, you send an MT940 formatted file to the bank which just imports that file, issuing withdrawals from all customers mentioned in the file (with bank details and account numbers). There’s no confirmation, only after the customer receives her bank statement she can claim that the transaction was faulty and the service provider is notified of the cancellation.
+
+Credit cards charge (depending on the volume) a few percent of the transaction to run their operations and to cover themselves against theft. Paypal charges a few percent, which is good for many small sellers, but kills the method as soon as you go into big volumes.
+
+The system definitely needs an overhaul.
+
+**So what can be done?**
+
+We need some standards to move money into cyberspace. First the objects have to be defined. One important object is the invoice. An invoice has a seller and a customer (both identified by e-mail address first and account details after). Actually, the invoice also has a signature of a seller. Anyone can send invoices around, as long as no one pays them nothing happened – the signature does not even have to be verified. The critical point is the payment. That needs a signature from a buyer. The buyer gives a signature to an invoice if it has the right amount and the right issuer and generally looks like the one invoice he expects (if there’s two you have a problem and you won’t pay it).
+The invoice is a specialized, unconfirmed special case of a transaction. Using double bookkeeping, a transaction touches two accounts, so taking money out of a teller machine increases cash, decreases bank, for example. This way no money drops between accounts. But a transaction can look different for me as a consumer than for a seller – so a transaction between two parties touches two of my accounts and two of the sellers accounts. There money can drop, and often does (like the fees charged at the end of the month or even year for all the withdrawals you’ve done using the wrong teller machine). This is much harder to track.
+
+So generally speaking, you can use your own bookkeeping (if you will), the seller can use her own bookkeeping, and the transactions only have to match when money changes hands. How could that be acheived?
+
+Imagine an online repository of transactions. Those transactions can be unpaid or paid bills or any other transaction in a bookkeeping application. Sending an invoice would then mean to put a transaction from customer to seller into the repository and confirming it from the sellers side. The customer also goes into the repository (guided by a link) and validates the transaction. Then a payment provider can execute that transaction, and everyone’s happy.
+
+Again, in slow motion: Using a freeware MT940-to-money-central-translator, the Merchant A uploads his invoice list to a web server he has chosen because it supports certain payment methods. The web service would actually allow to import an MT940 file, but then Merchant A would have to enter the email addresses of the customers afterwards which he does not want to do, so he uses the freeware. Merchant B would probably call the web service right out of his webshop.
+
+The result is a file on that web server for that transaction. The transaction has got an id now and the customer needs to be notified that the transaction is filed and signed by the merchant. Merchant A does that with an email containing a link. Merchant B just sends the customer over to the site using a redirect. Now, what’s needed is the signature of the customer. Again, it does not have to have gone through an authority. Just a signature is good enough – only the bank has to know that signature.
+
+Now the payment provider comes into action. A customer has several ways she wants to pay – maybe it’s a credit card payment provider which charges her a fee. But maybe it’s just an online bank which can work without charging fees, or it is someone who accepts cheques and issues bank transfers. The invoice becomes the transaction for the payment provider who then signs the transaction as well, as soon as the payment is done. When the Merchant checks the transaction again, he will see that it is signed by a payment provider and the deal is done.
+All this can happen real time. The repository which stores the transaction never touches the money. The merchant only has to trust the payment provider, not the customer. Multiple payment providers can compete for transactions, and customers can even select the payment provider they trust. The repository can be anywhere and several repositories can coexist. Payment providers can help customers to migrate to cheaper or faster methods. Merchants can sell everywhere in the world with the payment methods available to the customer (even if it is only cheques).
+

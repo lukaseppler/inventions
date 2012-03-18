@@ -1,0 +1,17 @@
+Title: The walk simulator
+Date: June 1 2006
+
+The most contact we have with large parts of our environment is by walking. Funny enough, **walk should be fairly easy to simulate**. Think of it like that:
+
+A foot can be seen as a rigid body (especially if it’s in a heavy boot). So we have something with six degrees of freedom (three rotations and three translations). When we walk, we apply some force to the foot and to the shoe so it moves. The ground pushes the shoe back and gives us the expected resistance. We can interact like that with a shoe so well that we don’t have to think particularly hard to do it, even when we walk up a flight of stairs.
+
+So the interaction between us and the environment reduces to a force we apply to the shoe and the force coming back from the environment. If we attach a shoe to a pressure controlled gear set which pulls and pushes (of course controlling all those six degrees of freedom) and measure the pull and push which comes from the shoe, we can simulate the ground just by pushing back whenever the shoe hits the virtual ground.
+
+You have to imagine this apparatus with a visual headset, so that the simulated environment is also visible to the person walking in the instrument.
+
+**So what happens if the person walks out of the range of the apparatus?**
+
+There is a way to avoid this: By carefully tilting the system (the visuals together with the shoe, maintaining center of mass – somehow like balancing a stick) so that the person does not recognize it. This produces a force which will eventually move the person back to the center of the usable area. By doing that centering constantly, the person could walk up stairs (or have a feeling to do that) while the virtual stairs are moving backwards under her feet – she will not know she’s not walking.
+
+Theoretically, the same device could be used to simulate pretty much anything you only need feet for to interact with the environment – like skateboarding, snowboarding or skiing, simulating a bouncy castle, sandy ground or deep snow. Or you could just use it to present the architectural model of your new home before it is built.
+Just don’t cross your legs.

@@ -1,0 +1,8 @@
+Title: Skype on a web page
+Date: June 15 2006
+
+Everything is moving onto the web. A year ago it was faster to find mails when they were downloaded onto your computer by IMAP or POP, but these days, you’re better off finding stuff if it’s with google mail. Pictures are online (flickr), Movies are online (myspace), Mail is online (google), so more and more we don’t seem to want anything more than a browser to use somewhere to be online.
+
+What’s missing is speech. Rarely someone installs skype in an internet cafÃ© or on a computer of a friend just to call someone. Maybe because you don’t want to mess with the headphones or settings, it’s just too private to fiddle with.
+
+So the next step in the virtualisation of things would be to have an applet of sorts which gets access to microphone and speakers and does some self testing with the users help to set up the voice signal correctly, test the levels, asks the person if they’re hearing the signal allright and start skyping from a webpage. That way the user only has to log in, answer a few questions and you’re all set.

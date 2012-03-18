@@ -1,0 +1,8 @@
+Title: Self Printing Computers
+Date: May 5th, 2006
+
+For some time now, there are polymers used as semiconductors, as light emitting diodes (LEDs) or logic. As applications of this, many people talk about using this for flexible, roll-up displays. What’s a bit more recent is the idea to create prints using plastic semiconductors with an inkjet printer, see for example [IDTechEx: Inkjet-printed Polymer Thin Film Transistors at Epson](http://www.idtechex.com/events/presentations/inkjet-printed-polymer-thin-film-transistors-at-epson-000211.asp).
+
+For me, the amazing thing would go a bit further. This technology could be used to create open source computing hardware.
+
+Think of it like this: There would be a rack which can hold paper, and the corner of the paper is clipped so that it connects the paper to a bus. When you install a piece of software (open source perhaps) onto your machine, you are given the option to print some of its functionality onto a piece of paper (like a fourier transform extension, a number cruncher, a special shader for a game). This can extend the computer in a very specific way and allow a development of an ever growing bunch of specialized — or even general — hardware to solve specific tasks or even evolve in a computer on its own.

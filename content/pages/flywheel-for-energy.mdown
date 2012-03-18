@@ -1,0 +1,12 @@
+Title: Flywheel for energy
+Date: May 19th 2006
+
+A Gyroscope is a flywheel which is not entirely fixed in its axis, see the [Wikipedia](http://en.wikipedia.org/wiki/Gyroscope) article.
+
+There’s a special physical property of a gyroscope. When you try to rotate the axis, it will always turn the other way – not against where you are pushing, but sort of perpendicularly away from it. This allows gyroscopes to be used as compasses because they can be mounted so that they work against every wiggle.
+
+Now, if you mount a gyroscope in a sailing boat, for example, so that the axis goes from starbord to backbord (left side to right side of the ship), a pitching movement would not change the axis of the flywheel, but a heeling (transverse inclination) would. Depending in which direction the flywheel is turning, this would push the boat to the left or to the right – it could be used to stabilize the boat.
+
+Now in a boat you got about 10 tons in an oscillatory movement and most of that energy is going to produce noise and spray. If you could imagine having cogs attached to the axis which would take that energy and increase the speed of the flywheel with that, the energy moved into the flywheel would be enormous – hundreds if not thousands of watts. If you know sailors you know how much that is on a sailing boat – they normally avoid switching on halogen lights because they consume 30 watts each.
+
+Now the only problem is the cogs.

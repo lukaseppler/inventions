@@ -1,0 +1,12 @@
+Title: How to replace voice mail
+Date: May 25 2006
+
+This one is something which hit me when listening to the daily source code: Adam Curry talks to some of his pals using his podcast, that is, he plays an audio feedback, pauses it occasionally and replies to the questions. So by subscribing to his peers podcasts, he’s basically creating a network of friends who listen to each others’ podcast and that way they’re talking to each other.
+
+This blog here allows you to write a comment at the end of the post. Also, there’s a ‘blog roll’ at the side which lists my friends’ blogs. We could have the same discussion together on the blog as we have with e-mail.
+
+Now, blogs replace part of the communication of e-mail (i.e. directed one-to-one communication with a one-to-many connection). Could a podcast-style answering machine (ideally on the web and accessible by skype and such) replace parts of the communication we have over the phone as one-to-one? It could be used like this:
+
+When I have something to tell to a friend of mine which is not urgent, I record that onto my own answering machine as a public message (like recording a podcast). I subscribe to my friend’s public messages and to the comments sections of my own message box. This way, I would listen to what’s going on on my way to work, maybe reply to one or two of the posts (which then would land into my friend’s subscriptions). Other people could listen into the main posts, also into the comments if they care.
+
+So that’s a new java application for a phone to be written.

@@ -1,0 +1,14 @@
+Title: Photochromic Wall Display
+Date: May 12th, 2006
+
+Photochromic is a word explaining a property of some material that changes its colour on light impact. There are glasses available which do just that (become sunglasses outside, see the explanation on [science.howstuffworks.com](http://science.howstuffworks.com/innovation/science-questions/question412.htm).
+
+Now, think about using a paint containing such a material. It would mean that using a matching laser pointer, you could paint something on the wall at home or in the office. If a so called galvanometer scanner (very hard to find a good explanatory link here) is placed between the laser and the wall you can actually use a computer to paint that picture. Depending on the chemicals used, the picture remains on the wall for a few seconds to a few minutes. So there’s a chance to fine tune.
+
+I’ve seen affordable scanners which can come down to ‘microdegrees’ in resolution, that is, from the 30 or so degrees freedom the mirror has, every degree is split into 1000 angles. if you use its full range, you have a blazing 30000 x 30000 pixel resolution.
+
+This would allow the projection of all pages of a small newspaper in a readable quality. It would allow complete visualisation of any database schema you can think of, huge genome rows, detailed blue prints… you name it. It will not be a moving image, but that’s part of the attraction.
+
+Another application is using the walls of your office as displays. Arriving e-mails would just pop up in front of you on the wall, you could see your peers, display a map of something or have a server log filling up your wall (don’t try scrolling though, just wait until it’s faded and start over again on the left…) You get the picture.
+
+Issues to solve: Finding a laser and a matching chemical. Having that chemical being non poisonous, but cheap, so that it’s easy to paint a room with it. Having the laser so that you don’t have to wear protective glasses at the required intensity levels. Having that chemical so that it does not go dark by itself over time.

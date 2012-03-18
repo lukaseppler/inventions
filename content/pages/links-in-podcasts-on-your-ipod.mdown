@@ -1,0 +1,22 @@
+Title: Links in Podcasts on your iPod
+Date: November 4th, 2005
+
+When you play a podcast with AAC-Enclosures in iTunes (see the [podfinder podcast](http://www.learnoutloud.com/Catalog/Arts-and-Entertainment/-/Podfinder-Podcast/6877) as an example) you get a picture and a link for the different chapters in the podcast. If you click the picture you would visit the link which can be a web page or another podcast page.
+
+The link could now be designed as follows. If you press the middle button on your iPod or the Enter key on any other portable mp3 player you run an action. The link would then be one of three or so types:
+
+* A preloaded little mp3 that would be played when the button’s pressed. This can actually be another podcast – iterate.
+* A question: The timecode of the button is recorded and uploaded to a web site when the device is synced. This creates the possibility to react on the content while listening. There must be a way to react on that button by adding or removing a part of the podcast. Maybe it would be best to combine that with the above.
+* Subscribe the currently playing podcast.
+
+To support this the aggregator (iTunes) would have to think ahead a little and cache all the linked content (up to a certain level or size limit). The cached content should not appear anywhere unless the button is pressed. In the device, there must be a standard reply in case the piece is not there (because of the limits) — something like ‘the selected piece will be downloaded at the next sync’.
+
+This would allow a listener to manage his subscriptions, to provide feedback, some voting – all at the touch of the button at the right moment:
+
+* ‘To hear more, push the button now’
+* ‘To subscribe to this podcast, push the button now’
+* ‘If you agree to Doug’s proposal, push the button now’
+
+That reduces feedback on something you can still manage when working out or driving the car. It’s enough to make this medium bidirectional.
+
+Now we need an iPod which can do that. How about the java phones? There you could imagine even more – maybe a ‘record an audio feedback’ option or the like.

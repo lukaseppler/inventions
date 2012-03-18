@@ -1,0 +1,10 @@
+Title: CNC based Open Source Manufacturing
+Date: October 31st, 2005
+
+First post :-)
+
+A CNC machine is a device which cuts, drills and forms metal or wood and can be used to fabricate pretty much anything which consists of one material. The machine might have a carousel to choose from a set of instuments.
+
+The idea goes as follows: Such a machine could theoretically be used to produce itself. One could start with the carousel – for all the people who have a machine which does not include one. The design could become more modular later on – first it would be important to help everyone who owns such a machine to improve his/her tools.
+
+There was a time when the open source operating system Linux was in a [stage](https://groups.google.com/forum/?fromgroups#!msg/comp.os.linux/5Rcys5xYuJc/Dpv00xjb5koJ) where self-compilation of the kernel and the compiler was an issue. So one of the first jobs with any of these projects is to get the system self-hosting. One way would be to make the machine simpler, in order to just create something out of mostly wood or soft plastic, which will not have any cooling or high precision, and then slowly go to harder materials and increased precision.

@@ -1,0 +1,20 @@
+Title: Redo
+Date: March 18 2012
+
+# Levels
+
+Product idea: The motivational logic from world of warcraft and similar games will be used in real life, mobile and on web sites. The level is not centrally managed like in the games, but is centered around guilds, which offer specialisations.
+
+The user will accept quests to gain experience points. To accept a quest, a user can use a browser plugin. Whoever offers quests can mark that on their web site, or probably even on the guild site (for example, offering a quest to people who visit cnn.com).
+
+## Some terms:
+
+- Quest: A defined goal or set of goals which can be reached (binary: reached or not yet). It will result in experience points.
+- Experience Points: A number corresponding to the amount of collected experience. Experience points grow exponentially: Each level requires 50% more experience points than the level before. The first level requires 10 points, 
+- Level: A number
+
+The quests have to be accepted by the guilds. Experience and other skills are managed by the guild. There will be limits: What quests can be accepted is dependent on the level and skills
+
+## Open Questions
+
+* I'm undecided about the XP-to-Level mapping. The requirements are that higher levels are not reachable with low level tasks, so the mapping usually expects more XP on higher levels. There are two distinct possibilities - some sort of polygon or an exponential. WoW mapping is mostly quadratical, which makes leveling a lot easier on higher levels. To stop low level grinding WoW makes low level quests gray, so they don't give XP anymore. A fully exponential mapping would solve that problem since the higher levels get crazy amounts of XP. For example, 1E6 to reach level 6… or doublings, 256 for level 8, 65k for level 16. Maybe e? The problem again with exponentials is the crazy amounts of XP one has to get for a certain level. The easiest way to make that understood is the scientific notation with the E - in that sense, the E could be the level. That would make leveling slower, but more powerful too.
